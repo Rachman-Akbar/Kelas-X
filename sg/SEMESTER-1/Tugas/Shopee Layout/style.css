@@ -1,0 +1,334 @@
+.layout {
+  /* background-color: aqua; */
+  width: 1000px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+}
+.kiri {
+  /* background-color: gray; */
+  width: 400px;
+  height: 500px;
+}
+.kanan {
+  padding: auto;
+  /* background-color: green; */
+  width: 600px;
+  height: 500px;
+}
+/* isi kiri */
+.gambar-besar {
+  background-color: whitesmoke;
+  width: 400px;
+  height: 400px;
+}
+.besar img {
+  margin-left: 25px;
+  background-color: black;
+  width: 350px;
+  height: 400px;
+}
+.gambar-kecil {
+  /* background-color: aqua; */
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.kecil img {
+  width: 75px;
+  height: 75px;
+  margin-top: 15px;
+}
+.tombol {
+  position: absolute;
+  top: 425px;
+  /* background-color: yellow; */
+  width: 400px;
+  height: 25px;
+}
+.tombol-kiri h1 {
+  background-color: rgba(0, 0, 0, 0.705);
+  position: absolute;
+  left: 0px;
+  color: white;
+}
+.tombol-kanan h1 {
+  background-color: rgba(0, 0, 0, 0.705);
+  position: absolute;
+  right: 0px;
+  color: white;
+}
+/* isi kanan  */
+.baris {
+  padding: 5px;
+  /* background-color: yellow; */
+  width: 600px;
+  height: 500px;
+}
+.baris-1 {
+  /* background-color: antiquewhite; */
+  width: 600px;
+  height: 50px;
+}
+.baris-2 {
+  background-color: aqua;
+  display: flex;
+}
+.baris-2-kiri {
+  background-color: #fcf7e9;
+  width: 500px;
+  height: 20px;
+  display: flex;
+}
+.baris-2-kanan,
+.col-2-3 {
+  background-color: #fcf7e9;
+  width: 100px;
+  height: 20px;
+}
+.col-2-1 {
+  color: orangered;
+}
+.col-2-2 img {
+  background-color: whitesmoke;
+  margin-left: 5px;
+  width: 100px;
+  height: 20px;
+}
+
+.angka {
+  color: black;
+}
+.baris-3 {
+  background-color: whitesmoke;
+  width: 600px;
+  height: 100px;
+}
+.promo {
+  background-color: rgba(255, 94, 0, 0.829);
+  width: 600px;
+  height: 40px;
+  display: flex;
+}
+.col-kiri p {
+  /* background-color: rgb(255, 247, 247); */
+  width: 300px;
+  height: 40px;
+  color: white;
+  margin-left: 40px;
+}
+.col-kanan {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  height: 40px;
+  color: white;
+}
+.sisa p {
+  color: white;
+  margin-right: 2px;
+}
+.waktu b {
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+}
+.diskon {
+  /* background-color: aquamarine; */
+  width: 600px;
+  display: flex;
+}
+.mahal {
+  margin: 20px;
+  color: gray;
+  font-size: smaller;
+}
+.murah {
+  margin: 15px;
+  color: orangered;
+  font-size: x-large;
+}
+.potongan p {
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: orangered;
+  color: white;
+  font-size: small;
+}
+.deskripsi {
+  /* background-color: rgb(223, 97, 97); */
+  width: 600px;
+  height: 300px;
+  display: flex;
+}
+.d {
+  background-color: white;
+  width: 200px;
+  height: 300px;
+}
+.p {
+  /* background-color: green; */
+  width: 500px;
+  height: 300px;
+}
+.gray {
+  /* background-color: whitesmoke; */
+  color: gray;
+}
+.d-1 {
+  position: relative;
+  top: 0px;
+}
+.d-2 {
+  position: relative;
+  top: 15px;
+}
+.d-3 {
+  position: relative;
+  top: 30px;
+}
+.d-4 {
+  position: relative;
+  top: 45px;
+}
+.d-5 {
+  position: relative;
+  top: 90px;
+}
+.v {
+  position: relative;
+  top: 10px;
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.voucher {
+  margin: auto;
+  color: orangered;
+}
+.kupon {
+  background-color: rgb(255, 229, 182);
+  width: 80px;
+  font-size: small;
+  text-align: center;
+}
+.bulet {
+  text-align: center;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  background-color: orangered;
+  color: white;
+  border-radius: 400px;
+}
+.return {
+  position: relative;
+  top: 30px;
+  background-color: white;
+  width: 500px;
+  height: 30px;
+  display: flex;
+}
+.gr {
+  margin: 1px 0px 10px 5px;
+}
+.free {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: aqua;
+  color: white;
+  border-radius: 400px;
+}
+.takon {
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 400px;
+  border: 2px solid;
+  border-color: gray;
+}
+.hemat {
+  position: relative;
+  top: 50px;
+  background-color: white;
+  width: 500px;
+  height: 30px;
+}
+.h-1 {
+  color: orangered;
+  width: 150px;
+  height: 20px;
+  font-size: large;
+  text-align: center;
+  margin-top: 5px;
+}
+.pengiriman {
+  position: relative;
+  top: 70px;
+  background-color: white;
+  width: 500px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.p-1 {
+  /* background-color: yellowgreen; */
+  width: 200px;
+  height: 20px;
+  display: flex;
+}
+.p-2 {
+  /* background-color: yellowgreen; */
+  width: 400px;
+  height: 20px;
+  display: flex;
+}
+.p-3 {
+  /* background-color: yellowgreen; */
+  width: 200px;
+  height: 20px;
+  margin-left: 25px;
+  display: flex;
+}
+.ppp {
+  margin-left: 10px;
+}
+.po {
+  margin-right: 50px;
+}
+.type {
+  position: relative;
+  top: 80px;
+  background-color: white;
+  width: 400px;
+  height: 60px;
+}
+.tipe {
+  display: flex;
+  font-size: small;
+  border: 1px solid;
+  border-color: gray;
+  width: 150px;
+  background-color: rgba(253, 253, 253, 0.89);
+}
+.varian img {
+  width: 20px;
+  height: 20px;
+  background-color: beige;
+}
+.t-1 {
+  margin: 0px 0px 10px 0px;
+}
+.t-2 {
+  margin: 10px 0px 10px 0px;
+}
+.t-3 {
+  position: absolute;
+  top: 0px;
+  left: 160px;
+}
